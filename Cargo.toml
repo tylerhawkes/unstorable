@@ -1,0 +1,22 @@
+[package]
+name = "unstorable"
+version = "0.1.0"
+authors = ["Tyler Hawkes <tyler.hawkes@gmail.com>"]
+edition = "2018"
+description = "An interface for requiring that a type is only used on the current stack frame"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tylerhawkes/unstorable"
+documentation = "https://docs.rs/unstorable"
+readme = "README.md"
+keywords = ["no_std", "no-std", "data", "structure", "config"]
+categories = ["data-structures", "embedded", "no-std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+
+[features]
+
+[dev-dependencies]
+
+[package.metadata.docs.rs]
+all-features = true
